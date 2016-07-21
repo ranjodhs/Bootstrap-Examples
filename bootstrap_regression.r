@@ -23,6 +23,8 @@ for (i in 1:replicates) {
 	results[i,] <- repfit$coefficients
 }
 
+hist(results[,1],breaks=30,col='blue',main="Histogram of Bootstrapped intercepts")
+hist(results[,2],breaks=30,col='blue',main="Histogram of Bootstrapped slopes")
 
 
 
