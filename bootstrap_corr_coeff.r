@@ -3,7 +3,7 @@
 # Date and version: 21st July 2016
 # Email: ranjodh.singh@gmail.com
 ###################################################################################################
-
+# Load MASS library
 library(MASS)
 
 mu <- rep(0,2)
